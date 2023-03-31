@@ -48,7 +48,7 @@
     <br/>create duplicate categories or assign notes to multiple categories.
 </p>
 
-<h4>Sub-Story 1: Improved Sorting Options</h4>
+<h4>2.1: Improved Sorting Options</h4>
 <p style="font-size: large;">
     As a user of the note-taking app, I want to be able to sort my notes by additional criteria such as title, priority, and type, so that I can easily find and organize my notes according to my needs.
 </p>
@@ -70,7 +70,7 @@
     <br/>Acceptance Test: Verify that the app allows sorting notes by title, priority, and type. Verify that the user can choose the sorting criteria and order. Verify that the app provides a visual indication of the sorting criteria being used and the order of sorting.
 </p>
 
-<h4>Sub-Story 2: Note Sharing</h4>
+<h4>2.2: Note Sharing</h4>
 <p style="font-size: large;">
     As a user of the note-taking app, I want to be able to share my notes with others, so that I can collaborate and work on notes with other people.
 </p>
@@ -93,6 +93,30 @@
     <br/>Verify that the user can set permissions for each shared note or category.
     <br/>Verify that the app provides a notification to the user when a shared note or category is edited by someone else.
     <br/>Verify that the app maintains user privacy and security.
+</p>
+
+<h4>2.3: Note Formatting</h4>
+<p style="font-size: large;">
+    As a user of the note-taking app, I want to be able to format my notes and change metrics such as the font size or the color.
+</p>
+<p style="font-size: large;">
+    <br/>Elaboration: 
+    <ul>
+        <li>The user should be able to change the font color and choose among many RGB colors.</li>
+        <li>The user should be able to change the font size and be able to make the text smaller or bigger.</li>
+        <li>The user should be able to make the text both in italics and bold.</li>
+        <li>The user should be able to align the text to left, center, or right.</li>
+    </ul>
+</p>
+<p style="font-size: large;">
+    <br/>Constraints: We should set limits to font size to not over-enlarge the text so that it becomes bigger than the screen.
+</p>
+<p style="font-size: large;">
+    <br/>Effort Estimation: 10 person-hours
+</p>
+<p style="font-size: large;">
+    <br/>Acceptance Test: Verify that the app allows the user format the text.
+    <br/>Verify that the user cannot set the font size above a certain value.
 </p>
 
 <h3>3: Adding Charts</h3>
@@ -120,6 +144,22 @@
     Acceptance Test: Import CSV files into notes and make the first two
     columns a Line Chart.
 
+<h4>3.2: Allowing user to mark points on the chart</h4>
+<p style="font-size: large;">
+    As a financial analyst, I want to mark certain important points on my chart so that I can improve my presentation.
+</p>
+<p style="font-size: large;">
+    Elaboration: Users should be able to choose a point by
+    using x-y coordinates and marking the point with an X.
+</p>
+<p style="font-size: large;">
+    Constraints: Only allow markers on the graphs themselves.
+</p>
+<p style="font-size: large;">
+    Effort Estimation: 7 person-hours
+</p>
+<p style="font-size: large;">
+    Acceptance Test: Being able to mark any point on a chart.
 	
 <h3>4: autosave functionality</h3>
 <p style="font-size: large;">As a user, I want to be able to save
