@@ -1,1 +1,26 @@
 <h1>Architecture</h1>
+<h2>Project Overview</h2>
+<p>Our team is developing a note-taking app for android geared toward students. In a fully realized version of our app, users will be able to take notes anywhere on the page, draw freely, make graphs and charts, plot functions, write complex math equations, and make tables of values all very quickly and easily.</p>
+<h2>Architecture Considerations</h2>
+<h3>1. Client-Server</h3>
+<ul>
+    <li>Client will be the user opening our application from a mobile phone.</li>
+    <li>Client will interact with a data storage server where they get access to their saved notes in the cloud.</li>
+    <li>Client will have special access key for their own notes.</li>
+</ul>
+<h3>2. Repository</h3>
+<ul>
+    <li>Central data storage being the database where we store the user's notes.</li>
+    <li> Components being the users who access the Central data storage to retrieve their own note.</li>
+</ul>
+<h2>Architecture: Repository</h2>
+
+<h1>(Component[User]) <----Retrieve/Save notes----> (Central Data Storage[Database])</h1>
+
+<h2>Conclusion</h2>
+<p>Chosen architectural style: Repository.</p>
+<p>There are still some issues and risks that we need to address before implementing this architecture. These include: Security, Scalability, Backup and recovery:</p> 
+<p>We believe that the expertise of the class can help us address these issues and ensure the success of our system. Some additional questions that we have include:</p>
+<p>How can we ensure that the repository is optimized for performance, particularly when handling large data sets?</p>
+<p>What are the best practices for managing access control in a repository-based architecture?</p>
+<p>How can we ensure that the repository is flexible and extensible enough to accommodate future changes and additions to the system?</p>
