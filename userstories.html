@@ -1,47 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Note Taking App</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+
+
 <h1>User Stories</h1>
 <h3>1: Creating Equations</h3>
 <p style="font-size: large;">As a student, I want to be able to write
     <br/>complex equations into my notes.
 </p>
 <p style="font-size: large;">
-    <br/>Elaboration: Users should be able to quickly and easily create
+    Elaboration: Users should be able to quickly and easily create
     <br/>a wide range of equations and put them in their notes. It should be
     <br/>easy to do to avoid confusion and quick enough that students can keep up
     <br/>while writing notes during a lecture.
 </p>
 <p style="font-size: large;">
-    <br/>Constraints: none
+    Constraints: none
 </p>
 <p style="font-size: large;">
-    <br/>Effort Estimation: 8 person-hours
+    Effort Estimation: 8 person-hours
 </p>
 <p style="font-size: large;">
-    <br/>Acceptance Test: Create five different equations of increasing complexity
+    Acceptance Test: Create five different equations of increasing complexity
     <br/>using a built-in tool and ensure they all render correctly.
 </p>
 
 <h3>2: Organize notes</h3>
 <p style="font-size: large;">
-    <br/>As a user of the note-taking app, I want to be able to organize my notes 
+    As a user of the note-taking app, I want to be able to organize my notes 
     <br/>by subject and date so that I can easily find and review my notes.
 </p>
 <p style="font-size: large;">
-    <br/>Elaboration: The app should allow the user to create and edit subject categories 
+    Elaboration: The app should allow the user to create and edit subject categories 
     <br/>and assign notes to those categories. The user should also be able to sort notes by date, 
     <br/>both chronologically and reverse-chronologically. The app should provide a visual indication 
     <br/>of which notes have been categorized and which notes are unsorted. The user should also be 
     <br/>able to filter notes by subject and date range.
 </p>
 <p style="font-size: large;">
-    <br/>Constraints: The app should be intuitive and easy to use, with a minimal learning curve. 
+    Constraints: The app should be intuitive and easy to use, with a minimal learning curve. 
     <br/>The app should not allow the user to create duplicate categories or assign notes to 
     <br/>multiple categories.
 </p>
 <p style="font-size: large;">
-    <br/>Effort Estimation: 20 person-hours
+    Effort Estimation: 20 person-hours
 </p>
 <p style="font-size: large;">
-    <br/>Acceptance Test: Create and edit subject categories and assign notes to those categories. 
+    Acceptance Test: Create and edit subject categories and assign notes to those categories. 
     <br/>Sort notes by date in both chronological and reverse-chronological order. Check that the 
     <br/>app visually indicates which notes have been categorized and which notes are unsorted. 
     <br/>Filter notes by subject and date range. Ensure that the app does not allow the user to 
@@ -53,21 +65,20 @@
     As a user of the note-taking app, I want to be able to sort my notes by additional criteria such as title, priority, and type, so that I can easily find and organize my notes according to my needs.
 </p>
 <p style="font-size: large;">
-    <br/>Elaboration: 
+    Elaboration: 
     <ul>
         <li>The app should allow the user to sort notes by title, priority, and type in addition to subject and date.</li>
         <li>The user should be able to choose which criteria to use for sorting and the order in which to sort them.</li>
         <li>The app should provide a visual indication of the sorting criteria being used and the order of sorting.</li>
     </ul>
+<p style="font-size: large;">
+    Constraints: The app should maintain the same level of intuitive and easy-to-use interface and shouldn't affect the app's performance.
 </p>
 <p style="font-size: large;">
-    <br/>Constraints: The app should maintain the same level of intuitive and easy-to-use interface and shouldn't affect the app's performance.
+    Effort Estimation: 10 person-hours
 </p>
 <p style="font-size: large;">
-    <br/>Effort Estimation: 10 person-hours
-</p>
-<p style="font-size: large;">
-    <br/>Acceptance Test: Verify that the app allows sorting notes by title, priority, and type. Verify that the user can choose the sorting criteria and order. Verify that the app provides a visual indication of the sorting criteria being used and the order of sorting.
+    Acceptance Test: Verify that the app allows sorting notes by title, priority, and type. Verify that the user can choose the sorting criteria and order. Verify that the app provides a visual indication of the sorting criteria being used and the order of sorting.
 </p>
 
 <h4>2.2: Note Sharing</h4>
@@ -75,21 +86,20 @@
     As a user of the note-taking app, I want to be able to share my notes with others, so that I can collaborate and work on notes with other people.
 </p>
 <p style="font-size: large;">
-    <br/>Elaboration: 
+    Elaboration: 
     <ul>
         <li>The app should allow the user to share individual notes or entire categories of notes with others via email or other messaging apps.</li>
         <li>The user should be able to set permissions for each shared note or category, such as read-only or edit access.</li>
         <li>The app should provide a notification to the user when a shared note or category is edited by someone else.</li>
     </ul>
+<p style="font-size: large;">
+    Constraints: The app should maintain user privacy and security, ensuring that only the intended recipient has access to the shared notes. 
 </p>
 <p style="font-size: large;">
-    <br/>Constraints: The app should maintain user privacy and security, ensuring that only the intended recipient has access to the shared notes. 
+    Effort Estimation: 15 person-hours
 </p>
 <p style="font-size: large;">
-    <br/>Effort Estimation: 15 person-hours
-</p>
-<p style="font-size: large;">
-    <br/>Acceptance Test: Verify that the app allows the user to share individual notes or entire categories of notes.
+    Acceptance Test: Verify that the app allows the user to share individual notes or entire categories of notes.
     <br/>Verify that the user can set permissions for each shared note or category.
     <br/>Verify that the app provides a notification to the user when a shared note or category is edited by someone else.
     <br/>Verify that the app maintains user privacy and security.
@@ -100,22 +110,21 @@
     As a user of the note-taking app, I want to be able to format my notes and change metrics such as the font size or the color.
 </p>
 <p style="font-size: large;">
-    <br/>Elaboration: 
+    Elaboration: 
     <ul>
         <li>The user should be able to change the font color and choose among many RGB colors.</li>
         <li>The user should be able to change the font size and be able to make the text smaller or bigger.</li>
         <li>The user should be able to make the text both in italics and bold.</li>
         <li>The user should be able to align the text to left, center, or right.</li>
     </ul>
+<p style="font-size: large;">
+    Constraints: We should set limits to font size to not over-enlarge the text so that it becomes bigger than the screen.
 </p>
 <p style="font-size: large;">
-    <br/>Constraints: We should set limits to font size to not over-enlarge the text so that it becomes bigger than the screen.
+    Effort Estimation: 10 person-hours
 </p>
 <p style="font-size: large;">
-    <br/>Effort Estimation: 10 person-hours
-</p>
-<p style="font-size: large;">
-    <br/>Acceptance Test: Verify that the app allows the user format the text.
+    Acceptance Test: Verify that the app allows the user format the text.
     <br/>Verify that the user cannot set the font size above a certain value.
 </p>
 
@@ -202,3 +211,8 @@
     <br/> Acceptance Test: seeing your text outputs at
     <br/>  the right place after the autosave functionality is implemented
 </p>
+
+
+    
+</body>
+</html>

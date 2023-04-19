@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Note Taking App</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+
 <h1>Architecture</h1>
 <h2>Project Overview</h2>
 <p>Our team is developing a note-taking app for android geared toward students. In a fully realized version of our app, users will be able to take notes anywhere on the page, draw freely, make graphs and charts, plot functions, write complex math equations, and make tables of values all very quickly and easily.</p>
@@ -14,9 +25,7 @@
     <li> Components being the users who access the Central data storage to retrieve their own note.</li>
 </ul>
 <h2>Architecture: Repository</h2>
-
-<h1>(Component[User]) <----Retrieve/Save notes----> (Central Data Storage[Database])</h1>
-
+<p><img src="architecture.png" /></p>
 <h2>Conclusion</h2>
 <p>Chosen architectural style: Repository.</p>
 <p>There are still some issues and risks that we need to address before implementing this architecture. These include: Security, Scalability, Backup and recovery:</p> 
@@ -24,3 +33,7 @@
 <p>How can we ensure that the repository is optimized for performance, particularly when handling large data sets?</p>
 <p>What are the best practices for managing access control in a repository-based architecture?</p>
 <p>How can we ensure that the repository is flexible and extensible enough to accommodate future changes and additions to the system?</p>
+
+    
+</body>
+</html>
