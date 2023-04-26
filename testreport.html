@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Note Taking App</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+
 <h1>Test Report</h1>
+
+<p>During the development of the Note Taking App, we performed several unit and component tests to ensure the proper functioning of individual parts of the system. We used JUnit, an open-source unit testing framework, for the testing of the Java components of the application. We tested the following components separately:</p>
+    <ul>
+        <li>Text entry feature: We tested the text entry feature by creating various text input scenarios and verifying that the text is correctly saved and displayed.</li>
+        <li>Drawing feature: We tested the drawing feature by creating different drawing scenarios and verifying that the drawings are correctly saved and displayed.</li>
+        <li>Latex feature: We tested the Latex feature by creating different equations and verifying that they are correctly rendered and displayed.</li>
+        <li>Graphing feature: We tested the graphing feature by creating different graphs and verifying that they are correctly rendered and displayed.</li>
+        <li>Auto-save feature: We tested the auto-save feature by verifying that the notes are automatically saved at regular intervals.</li>
+        <li>Local and Cloud storage: We tested the storage features by verifying that the notes are correctly saved and retrieved from both local and cloud storage.</li>
+ </ul>  
+<p>We selected the test data and scenarios based on the expected requirements of the application. We also used edge cases to ensure that the application could handle unexpected scenarios. We used JUnit's assert methods to check the expected output against the actual output.</p>
+<h2>2. System Testing</h2>     
+<p>We performed system testing by testing the entire Note Taking App as a whole. We selected a range of test cases and test data to ensure that the app functioned correctly in various scenarios. We also used Monkey Testing, a random testing technique that generates random inputs, to test the app's robustness.</p>
+<p>We used Android Studio's built-in tools for testing, including the Android Emulator and the Android Debug Bridge (ADB). We also used Firebase Test Lab, a cloud-based testing infrastructure, to test the app on multiple devices with different configurations. We used TestFairy, a mobile testing platform, to capture user feedback and track issues.</p>
+<p>During system testing, we verified the proper functioning of all the features, including text entry, drawing, Latex, graphing, auto-save, and storage. We also tested the app's performance and stability under different conditions.</p>
+
+<h2>3. Acceptance Testing</h2> 
+<p>We used the acceptance criteria on our user stories to drive our system testing. The following user stories were tested for acceptance:</p>
+<ul>
+    <li>As a user, I want to be able to create text notes, so that I can quickly jot down my ideas.</li>
+    <li>As a user, I want to be able to draw sketches, so that I can visually express my ideas.</li>
+    <li>As a user, I want to be able to write mathematical equations in Latex, so that I can use the app for scientific purposes.</li>
+    <li>As a user, I want to be able to create graphs, so that I can visualize my data.</li>
+    <li>As a user, I want the app to automatically save my notes, so that I don't lose my work.</li>
+    <li>As a user, I want my notes to be stored locally and in the cloud, so that I can access them from anywhere.</li>
+</ul>
+
+<p>All user stories were tested and accepted as completely implemented. We verified that all the acceptance criteria were met, and the features functioned as expected. Any issues or bugs discovered during acceptance testing were resolved before the final release of the app.</p>
+<p>In conclusion, we performed rigorous testing at the component, system, and acceptance levels to ensure the proper functioning of the Note Taking App. We used various tools and techniques to test the app's functionality, performance, and robustness, and we accepted all the user stories as completely implemented.</p>
+</body>
+</html>
